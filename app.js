@@ -20,7 +20,9 @@ app.get('/', (req, res) => {
 })
 
 
-
+app.get('/page2.html', (req, res) => {
+    res.sendFile(__dirname + '/page2.html')
+})
 
 
 
